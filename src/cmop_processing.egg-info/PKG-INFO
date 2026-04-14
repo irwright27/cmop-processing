@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: cmop-processing
+Version: 0.1.0
+Summary: CMOP data processing tools
+Author: Ian Wright
+Requires-Python: >=3.10

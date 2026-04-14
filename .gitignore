@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+
+# Notebooks / sandbox work
+notebooks/
+sandbox/
+*.ipynb
+
+# OS junk
+.DS_Store
+
+# Data (important for your case)
+data/
