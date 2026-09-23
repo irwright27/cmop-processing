@@ -3,4 +3,7 @@ Name: cmop-processing
 Version: 0.1.0
 Summary: CMOP data processing tools
 Author: Ian Wright
-Requires-Python: >=3.10
+Requires-Python: >=3.12
+Requires-Dist: s2-tools
+Requires-Dist: spec-tools[plot]
+Requires-Dist: uav-tools

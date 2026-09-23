@@ -2,9 +2,12 @@ README.md
 pyproject.toml
 src/cmop_processing/__init__.py
 src/cmop_processing/fpr.py
+src/cmop_processing/georef.py
 src/cmop_processing/input.py
 src/cmop_processing/uav.py
+src/cmop_processing/vi.py
 src/cmop_processing.egg-info/PKG-INFO
 src/cmop_processing.egg-info/SOURCES.txt
 src/cmop_processing.egg-info/dependency_links.txt
+src/cmop_processing.egg-info/requires.txt
 src/cmop_processing.egg-info/top_level.txt

@@ -7,7 +7,17 @@ name = "cmop-processing"
 version = "0.1.0"
 description = "CMOP data processing tools"
 authors = [{name = "Ian Wright"}]
-requires-python = ">=3.10"
+requires-python = ">=3.12"
+dependencies = [
+    "s2-tools",
+    "spec-tools[plot]",
+    "uav-tools",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.uv.sources]
+spec-tools = { git = "https://github.com/irwright27/spec-tools.git" }
+s2-tools = { path = "../s2-tools", editable = true }
+uav-tools = { path = "../uav-tools", editable = true }
