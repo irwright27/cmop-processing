@@ -9,6 +9,8 @@ description = "CMOP data processing tools"
 authors = [{name = "Ian Wright"}]
 requires-python = ">=3.12"
 dependencies = [
+    "li2200-tools",
+    "metashape ; sys_platform == 'darwin'",
     "s2-tools",
     "spec-tools[plot]",
     "uav-tools",
@@ -21,3 +23,5 @@ where = ["src"]
 spec-tools = { git = "https://github.com/irwright27/spec-tools.git" }
 s2-tools = { path = "../s2-tools", editable = true }
 uav-tools = { path = "../uav-tools", editable = true }
+li2200-tools = { path = "../li2200-tools", editable = true }
+metashape = { url = "https://download.agisoft.com/metashape-2.3.0-cp39.cp310.cp311.cp312.cp313-abi3-macosx_11_0_universal2.macosx_10_13_x86_64.whl" }

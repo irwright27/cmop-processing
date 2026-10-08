@@ -1,3 +1,7 @@
+li2200-tools
 s2-tools
 spec-tools[plot]
 uav-tools
+
+[:sys_platform == "darwin"]
+metashape

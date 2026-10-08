@@ -4,6 +4,8 @@ Version: 0.1.0
 Summary: CMOP data processing tools
 Author: Ian Wright
 Requires-Python: >=3.12
+Requires-Dist: li2200-tools
+Requires-Dist: metashape; sys_platform == "darwin"
 Requires-Dist: s2-tools
 Requires-Dist: spec-tools[plot]
 Requires-Dist: uav-tools
